@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table, tr, th, td {
+    margin: auto;
+    border: 1px solid black;
+    border-spacing: 0;
+    width: 30%;
+}
+
+tr, th, td, .baci {
+    width: 2%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 4.2vh;
+    width: 2.5rem;
+}
+
+th, .siva {
+    background-color: lightgrey;
+}
+
+ul, li, .baci {
+    display: inline;
+}
+
+li {
+    font-size: 5rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.baci {
+    height: 5rem;
+    width: 7rem;
+    display: block;
+   margin: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poruka {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.broj_bacanja {
+    font-size: 0.8rem;
+}
+
+.kockice {
+    visibility: hidden;
+}
+
+@media (orientation:portrait) {
+    table {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+        margin: auto;
+    }
+    li {
+       font-size: 3.7rem;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 1000px) {
+    table, ul, .baci {
+        visibility: hidden;
+    }
+    .poruka {
+        top: 23%;
+        left: 3%;
+        visibility: visible;
+    }
+}
+
+
