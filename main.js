@@ -7637,7 +7637,7 @@ polje1.addEventListener('click', function () {
         dva.style.background = "white";
         tri.style.background = "white";
         sest.style.background = "white";
-    } else if (jedan.style.background == "grey" && kocka1 == 1 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
+    } else if (jedan.style.background == "grey" && kocka1 == 1 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
         polje1.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
         jedan.style.background = "white";
@@ -8449,7 +8449,7 @@ polje3.addEventListener('click', function () {
         dva.style.background = "white";
         tri.style.background = "white";
         sest.style.background = "white";
-    } else if (jedan.style.background == "grey" && kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
+    } else if (jedan.style.background == "grey" && kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
         polje3.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
         jedan.style.background = "white";
@@ -10873,7 +10873,7 @@ polje9.addEventListener('click', function () {
         dva.style.background = "white";
         tri.style.background = "white";
         sest.style.background = "white";
-    } else if (jedan.style.background == "grey" && kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
+    } else if (jedan.style.background == "grey" && kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
         polje9.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
         jedan.style.background = "white";
@@ -13297,7 +13297,7 @@ polje15.addEventListener('click', function () {
         dva.style.background = "white";
         tri.style.background = "white";
         sest.style.background = "white";
-    } else if (jedan.style.background == "grey" && kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
+    } else if (jedan.style.background == "grey" && kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && dva.style.background == "grey" && tri.style.background !== "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey") {
         polje15.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
         jedan.style.background = "white";
@@ -18394,6 +18394,13 @@ polje53.addEventListener('click', function () {
         dva.style.background = "white";
         tri.style.background = "white";
         pet.style.background = "white";
+    } else if (jedan.style.background !== "grey" && dva.style.background == "grey" && tri.style.background == "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey" && kocka2 == kocka3 && kocka2 == kocka4 && kocka2 == kocka6) {
+        polje53.innerHTML = kocka2 + kocka3 + kocka4 + kocka6 + 40;
+        brojac = 0;
+        cetiri.style.background = "white";
+        dva.style.background = "white";
+        tri.style.background = "white";
+        pet.style.background = "white";
     } else if (jedan.style.background !== "grey" && dva.style.background == "grey" && tri.style.background == "grey" && cetiri.style.background !== "grey" && pet.style.background == "grey" && sest.style.background == "grey" && kocka2 == kocka3 && kocka2 == kocka5 && kocka2 == kocka6) {
         polje53.innerHTML = kocka2 + kocka3 + kocka5 + kocka6 + 40;
         brojac = 0;
@@ -18515,6 +18522,13 @@ polje54.addEventListener('click', function () {
         pet.style.background = "white";
     } else if (jedan.style.background !== "grey" && dva.style.background == "grey" && tri.style.background == "grey" && cetiri.style.background !== "grey" && pet.style.background == "grey" && sest.style.background == "grey" && kocka2 == kocka3 && kocka2 == kocka5 && kocka2 == kocka6) {
         polje54.innerHTML = kocka2 + kocka3 + kocka5 + kocka6 + 40;
+        brojac = 0;
+        pet.style.background = "white";
+        dva.style.background = "white";
+        tri.style.background = "white";
+        sest.style.background = "white";
+    } else if (jedan.style.background !== "grey" && dva.style.background == "grey" && tri.style.background == "grey" && cetiri.style.background == "grey" && pet.style.background !== "grey" && sest.style.background == "grey" && kocka2 == kocka3 && kocka2 == kocka4 && kocka2 == kocka6) {
+        polje54.innerHTML = kocka2 + kocka3 + kocka4 + kocka6 + 40;
         brojac = 0;
         pet.style.background = "white";
         dva.style.background = "white";
