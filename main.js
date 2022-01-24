@@ -6299,7 +6299,7 @@ polje19.addEventListener('click', function () {
     } else if (kocka1 == 1 && kocka1 == kocka2 && kocka1 == kocka3 && kocka1 == kocka6 && kocka1 !== kocka4 && kocka1 !== kocka5) {
         polje19.innerHTML = kocka2 + kocka3 + kocka1 + kocka6;
         brojac = 0;
-    } else if (kocka1 == 1 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && kocka1 !== kocka3 && kocka1 !== kocka4) {
+    } else if (kocka1 == 1 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka6) {
         polje19.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
     } else if (kocka1 == 1 && kocka1 == kocka2 && kocka1 == kocka6 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka5) {
@@ -6509,7 +6509,7 @@ polje20.addEventListener('click', function () {
     } else if (kocka1 == 2 && kocka1 == kocka2 && kocka1 == kocka3 && kocka1 == kocka6 && kocka1 !== kocka4 && kocka1 !== kocka5) {
         polje20.innerHTML = kocka2 + kocka3 + kocka1 + kocka6;
         brojac = 0;
-    } else if (kocka1 == 2 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && kocka1 !== kocka3 && kocka1 !== kocka4) {
+    } else if (kocka1 == 2 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka6) {
         polje20.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
     } else if (kocka1 == 2 && kocka1 == kocka2 && kocka1 == kocka6 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka5) {
@@ -6719,7 +6719,7 @@ polje21.addEventListener('click', function () {
     } else if (kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka3 && kocka1 == kocka6 && kocka1 !== kocka4 && kocka1 !== kocka5) {
         polje21.innerHTML = kocka2 + kocka3 + kocka1 + kocka6;
         brojac = 0;
-    } else if (kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && kocka1 !== kocka3 && kocka1 !== kocka4) {
+    } else if (kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka6) {
         polje21.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
     } else if (kocka1 == 3 && kocka1 == kocka2 && kocka1 == kocka6 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka5) {
@@ -6929,7 +6929,7 @@ polje22.addEventListener('click', function () {
     } else if (kocka1 == 4 && kocka1 == kocka2 && kocka1 == kocka3 && kocka1 == kocka6 && kocka1 !== kocka4 && kocka1 !== kocka5) {
         polje22.innerHTML = kocka2 + kocka3 + kocka1 + kocka6;
         brojac = 0;
-    } else if (kocka1 == 4 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && kocka1 !== kocka3 && kocka1 !== kocka4) {
+    } else if (kocka1 == 4 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka6) {
         polje22.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
     } else if (kocka1 == 4 && kocka1 == kocka2 && kocka1 == kocka6 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka5) {
@@ -7139,7 +7139,7 @@ polje23.addEventListener('click', function () {
     } else if (kocka1 == 5 && kocka1 == kocka2 && kocka1 == kocka3 && kocka1 == kocka6 && kocka1 !== kocka4 && kocka1 !== kocka5) {
         polje23.innerHTML = kocka2 + kocka3 + kocka1 + kocka6;
         brojac = 0;
-    } else if (kocka1 == 5 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka6 && kocka1 !== kocka3 && kocka1 !== kocka4) {
+    } else if (kocka1 == 5 && kocka1 == kocka2 && kocka1 == kocka5 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka6) {
         polje23.innerHTML = kocka2 + kocka5 + kocka1 + kocka4;
         brojac = 0;
     } else if (kocka1 == 5 && kocka1 == kocka2 && kocka1 == kocka6 && kocka1 == kocka4 && kocka1 !== kocka3 && kocka1 !== kocka5) {
