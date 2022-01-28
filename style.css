@@ -20,7 +20,7 @@ tr, th, td, .baci {
     width: 2.5rem;
 }
 
-th, .siva {
+th, .obojeno {
     background-color: lightgrey;
 }
 
@@ -63,6 +63,39 @@ ul {
 
 .kockice {
     visibility: hidden;
+}
+
+.wrapper,
+.hide {
+  display: grid;
+  grid-template-columns: repeat(4, 2rem);
+  grid-template-rows: 2rem 2rem;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  bottom: 1%;
+  left: 2%;
+}
+
+.box_1 {
+    background-color: lightgrey;
+}
+
+.box_2 {
+    background-color: red;
+}
+
+.box_3 {
+    background-color: blue;
+}
+
+.box_4 {
+    background-color: yellow;
+}
+
+.box_5 {
+    background-color: green;
 }
 
 @media (orientation:portrait) {

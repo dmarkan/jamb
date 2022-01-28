@@ -19055,6 +19055,61 @@ polje66.addEventListener('click', function () {
     polje66.innerHTML = polje25 + polje26 + polje27 + polje28 + polje37 + polje38 + polje39 + polje40 + polje61 + polje62 + polje63 + polje64;
 })
 
+// BOJE
+
+let siva = document.getElementById("siva");
+let crvena = document.getElementById("crvena");
+let plava = document.getElementById("plava");
+let zuta = document.getElementById("zuta");
+let zelena = document.getElementById("zelena");
+let obojeno = document.getElementsByClassName("obojeno");
+let obojeneKockice = document.getElementsByClassName("obojene-kockice");
+
+siva.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor="lightgrey";
+}
+for (let j = 0; j < obojeneKockice.length; j++) {
+    obojeneKockice[j].style.color="black";
+}
+})
+
+crvena.addEventListener("click", () => {
+        for (let i = 0; i < obojeno.length; i++) {
+            obojeno[i].style.backgroundColor="red";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color="red";
+}
+})
+
+plava.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor="blue";
+}
+for (let j = 0; j < obojeneKockice.length; j++) {
+    obojeneKockice[j].style.color="blue";
+}
+})
+
+zuta.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor="yellow";
+}
+for (let j = 0; j < obojeneKockice.length; j++) {
+    obojeneKockice[j].style.color="yellow";
+}
+})
+
+zelena.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor="green";
+}
+for (let j = 0; j < obojeneKockice.length; j++) {
+    obojeneKockice[j].style.color="green";
+}
+})
+
 
 
 
