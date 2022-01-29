@@ -27,8 +27,7 @@ td,
     width: 2.7rem;
 }
 
-.baci,
-.ponovo {
+.baci, .ponovo {
     font-size: 1rem;
 }
 
@@ -50,10 +49,10 @@ li {
 }
 
 .baci {
-    height: 3.8rem;
-    width: 6rem;
+    height: 4rem;
+    width: 7rem;
     display: block;
-    margin: -0.5% auto 0 auto;
+    margin: -0.7% auto 0 auto;
 }
 
 .ponovo {
@@ -79,7 +78,7 @@ ul {
 }
 
 .broj_bacanja {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
 }
 
 .kockice {
