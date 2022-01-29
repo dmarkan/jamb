@@ -82,11 +82,11 @@ let kocka6 = 0;
 let brojac = 0;
 
 baci.addEventListener('click', function () {
-   kockice.style.visibility = "visible";
+    kockice.style.visibility = "visible";
     brojac += 1;
     if (brojac == 1) {
         broj_bacanja.innerHTML = "1";
-    } else if(brojac == 2) {
+    } else if (brojac == 2) {
         broj_bacanja.innerHTML = "2";
     } else {
         broj_bacanja.innerHTML = "";
@@ -220,7 +220,7 @@ baci.addEventListener('click', function () {
     } else if (jedan.style.background == "grey" && cetiri.style.background == "grey" && dva.style.background == "grey" && tri.style.background == "grey" && pet.style.background !== "grey" && sest.style.background == "grey") {
         igra63();
     } else if (jedan.style.background !== "grey" && cetiri.style.background == "grey" && dva.style.background == "grey" && tri.style.background == "grey" && pet.style.background !== "grey" && sest.style.background == "grey") {
-        igra64(); 
+        igra64();
     } else {
         igra();
     }
@@ -6203,7 +6203,7 @@ polje19.addEventListener('click', function () {
     } else if (kocka2 == 1 && kocka1 !== kocka2 && kocka2 !== kocka3 && kocka2 !== kocka4 && kocka2 !== kocka5 && kocka2 !== kocka6) {
         polje19.innerHTML = kocka2;
         brojac = 0;
-    } else if (kocka3 == 1  && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
+    } else if (kocka3 == 1 && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
         polje19.innerHTML = kocka3;
         brojac = 0;
     } else if (kocka4 == 1 && kocka4 !== kocka2 && kocka4 !== kocka3 && kocka1 !== kocka4 && kocka4 !== kocka5 && kocka4 !== kocka6) {
@@ -6413,7 +6413,7 @@ polje20.addEventListener('click', function () {
     } else if (kocka2 == 2 && kocka1 !== kocka2 && kocka2 !== kocka3 && kocka2 !== kocka4 && kocka2 !== kocka5 && kocka2 !== kocka6) {
         polje20.innerHTML = kocka2;
         brojac = 0;
-    } else if (kocka3 == 2  && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
+    } else if (kocka3 == 2 && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
         polje20.innerHTML = kocka3;
         brojac = 0;
     } else if (kocka4 == 2 && kocka4 !== kocka2 && kocka4 !== kocka3 && kocka1 !== kocka4 && kocka4 !== kocka5 && kocka4 !== kocka6) {
@@ -6623,7 +6623,7 @@ polje21.addEventListener('click', function () {
     } else if (kocka2 == 3 && kocka1 !== kocka2 && kocka2 !== kocka3 && kocka2 !== kocka4 && kocka2 !== kocka5 && kocka2 !== kocka6) {
         polje21.innerHTML = kocka2;
         brojac = 0;
-    } else if (kocka3 == 3  && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
+    } else if (kocka3 == 3 && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
         polje21.innerHTML = kocka3;
         brojac = 0;
     } else if (kocka4 == 3 && kocka4 !== kocka2 && kocka4 !== kocka3 && kocka1 !== kocka4 && kocka4 !== kocka5 && kocka4 !== kocka6) {
@@ -6833,7 +6833,7 @@ polje22.addEventListener('click', function () {
     } else if (kocka2 == 4 && kocka1 !== kocka2 && kocka2 !== kocka3 && kocka2 !== kocka4 && kocka2 !== kocka5 && kocka2 !== kocka6) {
         polje22.innerHTML = kocka2;
         brojac = 0;
-    } else if (kocka3 == 4  && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
+    } else if (kocka3 == 4 && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
         polje22.innerHTML = kocka3;
         brojac = 0;
     } else if (kocka4 == 4 && kocka4 !== kocka2 && kocka4 !== kocka3 && kocka1 !== kocka4 && kocka4 !== kocka5 && kocka4 !== kocka6) {
@@ -7043,7 +7043,7 @@ polje23.addEventListener('click', function () {
     } else if (kocka2 == 5 && kocka1 !== kocka2 && kocka2 !== kocka3 && kocka2 !== kocka4 && kocka2 !== kocka5 && kocka2 !== kocka6) {
         polje23.innerHTML = kocka2;
         brojac = 0;
-    } else if (kocka3 == 5  && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
+    } else if (kocka3 == 5 && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
         polje23.innerHTML = kocka3;
         brojac = 0;
     } else if (kocka4 == 5 && kocka4 !== kocka2 && kocka4 !== kocka3 && kocka1 !== kocka4 && kocka4 !== kocka5 && kocka4 !== kocka6) {
@@ -7253,7 +7253,7 @@ polje24.addEventListener('click', function () {
     } else if (kocka2 == 6 && kocka1 !== kocka2 && kocka2 !== kocka3 && kocka2 !== kocka4 && kocka2 !== kocka5 && kocka2 !== kocka6) {
         polje24.innerHTML = kocka2;
         brojac = 0;
-    } else if (kocka3 == 6  && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
+    } else if (kocka3 == 6 && kocka3 !== kocka2 && kocka1 !== kocka3 && kocka3 !== kocka4 && kocka3 !== kocka5 && kocka3 !== kocka6) {
         polje24.innerHTML = kocka3;
         brojac = 0;
     } else if (kocka4 == 6 && kocka4 !== kocka2 && kocka4 !== kocka3 && kocka1 !== kocka4 && kocka4 !== kocka5 && kocka4 !== kocka6) {
@@ -14330,7 +14330,7 @@ polje18.addEventListener('click', function () {
     if (polje33.innerHTML == "") {
         alert("Mora se prvo popuniti polje ispod!");
         kockice.style.visibility = "visible";
-    baci.style.visibility = "hidden";
+        baci.style.visibility = "hidden";
     } else if (polje18.innerHTML !== "") {
         alert("Već je upisana vrednost u ovo polje!");
         kockice.style.visibility = "visible";
@@ -14735,10 +14735,10 @@ polje25.addEventListener('click', function () {
     let polje4 = parseInt(document.querySelector(".polje4").innerHTML);
     let polje5 = parseInt(document.querySelector(".polje5").innerHTML);
     let polje6 = parseInt(document.querySelector(".polje6").innerHTML);
-    if ((polje1 + polje2 + polje3 + polje4 + polje5 + polje6)>60) {
+    if ((polje1 + polje2 + polje3 + polje4 + polje5 + polje6) > 60) {
         polje25.innerHTML = polje1 + polje2 + polje3 + polje4 + polje5 + polje6 + 30;
     } else {
-    polje25.innerHTML = polje1 + polje2 + polje3 + polje4 + polje5 + polje6;
+        polje25.innerHTML = polje1 + polje2 + polje3 + polje4 + polje5 + polje6;
     }
 })
 
@@ -14749,10 +14749,10 @@ polje26.addEventListener('click', function () {
     let polje10 = parseInt(document.querySelector(".polje10").innerHTML);
     let polje11 = parseInt(document.querySelector(".polje11").innerHTML);
     let polje12 = parseInt(document.querySelector(".polje12").innerHTML);
-    if ((polje7 + polje8 + polje9 + polje10 + polje11 + polje12)>60) {
+    if ((polje7 + polje8 + polje9 + polje10 + polje11 + polje12) > 60) {
         polje26.innerHTML = polje7 + polje8 + polje9 + polje10 + polje11 + polje12 + 30;
     } else {
-    polje26.innerHTML = polje7 + polje8 + polje9 + polje10 + polje11 + polje12;
+        polje26.innerHTML = polje7 + polje8 + polje9 + polje10 + polje11 + polje12;
     }
 })
 
@@ -14763,10 +14763,10 @@ polje27.addEventListener('click', function () {
     let polje16 = parseInt(document.querySelector(".polje16").innerHTML);
     let polje17 = parseInt(document.querySelector(".polje17").innerHTML);
     let polje18 = parseInt(document.querySelector(".polje18").innerHTML);
-    if ((polje13 + polje14 + polje15 + polje16 + polje17 + polje18)>60) {
+    if ((polje13 + polje14 + polje15 + polje16 + polje17 + polje18) > 60) {
         polje27.innerHTML = polje13 + polje14 + polje15 + polje16 + polje17 + polje18 + 30;
     } else {
-    polje27.innerHTML = polje13 + polje14 + polje15 + polje16 + polje17 + polje18;
+        polje27.innerHTML = polje13 + polje14 + polje15 + polje16 + polje17 + polje18;
     }
 })
 
@@ -14777,10 +14777,10 @@ polje28.addEventListener('click', function () {
     let polje22 = parseInt(document.querySelector(".polje22").innerHTML);
     let polje23 = parseInt(document.querySelector(".polje23").innerHTML);
     let polje24 = parseInt(document.querySelector(".polje24").innerHTML);
-    if ((polje19 + polje20 + polje21 + polje22 + polje23 + polje24)>60) {
+    if ((polje19 + polje20 + polje21 + polje22 + polje23 + polje24) > 60) {
         polje28.innerHTML = polje19 + polje20 + polje21 + polje22 + polje23 + polje24 + 30;
     } else {
-    polje28.innerHTML = polje19 + polje20 + polje21 + polje22 + polje23 + polje24;
+        polje28.innerHTML = polje19 + polje20 + polje21 + polje22 + polje23 + polje24;
     }
 })
 
@@ -15545,7 +15545,7 @@ polje41.addEventListener('click', function () {
         cetiri.style.background = "white";
         pet.style.background = "white";
         sest.style.background = "white";
-    }else {
+    } else {
         polje41.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -15758,7 +15758,7 @@ polje42.addEventListener('click', function () {
         cetiri.style.background = "white";
         pet.style.background = "white";
         sest.style.background = "white";
-    }else {
+    } else {
         polje42.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -16213,8 +16213,7 @@ polje45.addEventListener('click', function () {
         cetiri.style.background = "white";
         pet.style.background = "white";
         sest.style.background = "white";
-    } 
-     else {
+    } else {
         polje45.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -16355,8 +16354,7 @@ polje46.addEventListener('click', function () {
         cetiri.style.background = "white";
         pet.style.background = "white";
         sest.style.background = "white";
-    } 
-     else {
+    } else {
         polje46.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -16501,8 +16499,7 @@ polje47.addEventListener('click', function () {
         cetiri.style.background = "white";
         pet.style.background = "white";
         sest.style.background = "white";
-    } 
-     else {
+    } else {
         polje47.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -16583,8 +16580,7 @@ polje48.addEventListener('click', function () {
     } else if (kocka4 == kocka5 && kocka4 == kocka6 && kocka4 !== kocka1 && kocka4 !== kocka2 && kocka4 !== kocka3) {
         polje48.innerHTML = kocka4 + kocka5 + kocka6 + 20;
         brojac = 0;
-    } 
-     else {
+    } else {
         polje48.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -18439,7 +18435,7 @@ polje53.addEventListener('click', function () {
 polje54.addEventListener('click', function () {
     baci.style.visibility = "visible";
     kockice.style.visibility = "hidden";
-   if (polje54.innerHTML !== "") {
+    if (polje54.innerHTML !== "") {
         alert("Već je upisana vrednost u ovo polje!");
         kockice.style.visibility = "visible";
         baci.style.visibility = "hidden";
@@ -18688,7 +18684,7 @@ polje55.addEventListener('click', function () {
 polje56.addEventListener('click', function () {
     baci.style.visibility = "visible";
     kockice.style.visibility = "hidden";
-   if (polje56.innerHTML !== "") {
+    if (polje56.innerHTML !== "") {
         alert("Već je upisana vrednost u ovo polje!");
         kockice.style.visibility = "visible";
         baci.style.visibility = "hidden";
@@ -18810,8 +18806,7 @@ polje57.addEventListener('click', function () {
         tri.style.background = "white";
         cetiri.style.background = "white";
         sest.style.background = "white";
-    }
-    else {
+    } else {
         polje57.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -18880,8 +18875,7 @@ polje58.addEventListener('click', function () {
         tri.style.background = "white";
         cetiri.style.background = "white";
         sest.style.background = "white";
-    }
-    else {
+    } else {
         polje58.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -18950,8 +18944,7 @@ polje59.addEventListener('click', function () {
         tri.style.background = "white";
         cetiri.style.background = "white";
         sest.style.background = "white";
-    }
-    else {
+    } else {
         polje59.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -18990,8 +18983,7 @@ polje60.addEventListener('click', function () {
     } else if (kocka1 == kocka2 && kocka1 == kocka3 && kocka1 == kocka4 && kocka1 == kocka6) {
         polje60.innerHTML = kocka1 + kocka2 + kocka3 + kocka4 + kocka6 + 50;
         brojac = 0;
-    }
-    else {
+    } else {
         polje60.innerHTML = 0;
         brojac = 0;
         jedan.style.background = "white";
@@ -19062,55 +19054,120 @@ let crvena = document.getElementById("crvena");
 let plava = document.getElementById("plava");
 let zuta = document.getElementById("zuta");
 let zelena = document.getElementById("zelena");
+let ljubicasta = document.getElementById("ljubicasta");
+let midnight = document.getElementById("midnight");
+let orange = document.getElementById("orange");
+let concrete = document.getElementById("concrete");
+let pink = document.getElementById("pink");
+let cyan = document.getElementById("cyan");
+let rose = document.getElementById("rose");
 let obojeno = document.getElementsByClassName("obojeno");
 let obojeneKockice = document.getElementsByClassName("obojene-kockice");
 
 siva.addEventListener("click", () => {
     for (let i = 0; i < obojeno.length; i++) {
-        obojeno[i].style.backgroundColor="lightgrey";
-}
-for (let j = 0; j < obojeneKockice.length; j++) {
-    obojeneKockice[j].style.color="black";
-}
+        obojeno[i].style.backgroundColor = "lightgrey";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "black";
+    }
 })
 
 crvena.addEventListener("click", () => {
-        for (let i = 0; i < obojeno.length; i++) {
-            obojeno[i].style.backgroundColor="red";
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#e74c3c";
     }
     for (let j = 0; j < obojeneKockice.length; j++) {
-        obojeneKockice[j].style.color="red";
-}
+        obojeneKockice[j].style.color = "#e74c3c";
+    }
 })
 
 plava.addEventListener("click", () => {
     for (let i = 0; i < obojeno.length; i++) {
-        obojeno[i].style.backgroundColor="blue";
-}
-for (let j = 0; j < obojeneKockice.length; j++) {
-    obojeneKockice[j].style.color="blue";
-}
+        obojeno[i].style.backgroundColor = "#2980b9";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#2980b9";
+    }
 })
 
 zuta.addEventListener("click", () => {
     for (let i = 0; i < obojeno.length; i++) {
-        obojeno[i].style.backgroundColor="yellow";
-}
-for (let j = 0; j < obojeneKockice.length; j++) {
-    obojeneKockice[j].style.color="yellow";
-}
+        obojeno[i].style.backgroundColor = "#f1c40f";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#f1c40f";
+    }
 })
 
 zelena.addEventListener("click", () => {
     for (let i = 0; i < obojeno.length; i++) {
-        obojeno[i].style.backgroundColor="green";
-}
-for (let j = 0; j < obojeneKockice.length; j++) {
-    obojeneKockice[j].style.color="green";
-}
+        obojeno[i].style.backgroundColor = "#27ae60";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#27ae60";
+    }
 })
 
+ljubicasta.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#8e44ad";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#8e44ad";
+    }
+})
 
+midnight.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#2c3e50";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#2c3e50";
+    }
+})
 
+orange.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#e67e22";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#e67e22";
+    }
+})
 
+concrete.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#95a5a6";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#95a5a6";
+    }
+})
 
+pink.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#f78fb3";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#f78fb3";
+    }
+})
+
+cyan.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#3dc1d3";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#3dc1d3";
+    }
+})
+
+rose.addEventListener("click", () => {
+    for (let i = 0; i < obojeno.length; i++) {
+        obojeno[i].style.backgroundColor = "#c44569";
+    }
+    for (let j = 0; j < obojeneKockice.length; j++) {
+        obojeneKockice[j].style.color = "#c44569";
+    }
+})

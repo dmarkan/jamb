@@ -4,27 +4,42 @@
     box-sizing: border-box;
 }
 
-table, tr, th, td {
+table,
+tr,
+th,
+td {
     margin: auto;
     border: 1px solid black;
     border-spacing: 0;
     width: 30%;
 }
 
-tr, th, td, .baci {
+tr,
+th,
+td,
+.baci,
+.ponovo {
     width: 2%;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
     height: 4.2vh;
-    width: 2.5rem;
+    width: 2.7rem;
 }
 
-th, .obojeno {
+.baci,
+.ponovo {
+    font-size: 1rem;
+}
+
+th,
+.obojeno {
     background-color: lightgrey;
 }
 
-ul, li, .baci {
+ul,
+li,
+.baci {
     display: inline;
 }
 
@@ -35,10 +50,16 @@ li {
 }
 
 .baci {
-    height: 5rem;
-    width: 7rem;
+    height: 3.8rem;
+    width: 6rem;
     display: block;
-   margin: auto;
+    margin: -0.5% auto 0 auto;
+}
+
+.ponovo {
+    display: block;
+    margin: 0.5% auto;
+    width: 10rem;
 }
 
 ul {
@@ -66,16 +87,23 @@ ul {
 }
 
 .wrapper,
-.hide {
-  display: grid;
-  grid-template-columns: repeat(4, 2rem);
-  grid-template-rows: 2rem 2rem;
-  grid-auto-flow: column;
-  justify-content: center;
-  align-content: center;
-  position: absolute;
-  bottom: 1%;
-  left: 2%;
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1.5rem);
+    grid-template-rows: 1.5rem 1.5rem;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    bottom: 1%;
+}
+
+.wrapper {
+    left: 2%;
+}
+
+.wrapper2 {
+    right: 2%;
 }
 
 .box_1 {
@@ -83,43 +111,79 @@ ul {
 }
 
 .box_2 {
-    background-color: red;
+    background-color: #e74c3c;
 }
 
 .box_3 {
-    background-color: blue;
+    background-color: #2980b9;
 }
 
 .box_4 {
-    background-color: yellow;
+    background-color: #f1c40f;
 }
 
 .box_5 {
-    background-color: green;
+    background-color: #27ae60;
+}
+
+.box_6 {
+    background-color: #8e44ad;
+}
+
+.box_7 {
+    background-color: #2c3e50;
+}
+
+.box_8 {
+    background-color: #e67e22;
+}
+
+.box_9 {
+    background-color: #95a5a6;
+}
+
+.box_10 {
+    background-color: #f78fb3;
+}
+
+.box_11 {
+    background-color: #3dc1d3;
+}
+
+.box_12 {
+    background-color: #c44569;
 }
 
 @media (orientation:portrait) {
     table {
         width: 100%;
     }
+
     ul {
         width: 100%;
         margin: auto;
     }
+
     li {
-       font-size: 3.7rem;
+        font-size: 3.7rem;
     }
 }
 
 @media (orientation:landscape) and (max-width: 1000px) {
-    table, ul, .baci {
+
+    table,
+    ul,
+    .baci,
+    .wrapper,
+    .wrapper2 {
         visibility: hidden;
     }
+
     .poruka {
-        top: 23%;
-        left: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
         visibility: visible;
     }
 }
-
-
