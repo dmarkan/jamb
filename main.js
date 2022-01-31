@@ -18390,7 +18390,7 @@ polje53.addEventListener('click', function () {
         dva.style.background = "white";
         tri.style.background = "white";
         pet.style.background = "white";
-    } else if (jedan.style.background !== "grey" && dva.style.background == "grey" && tri.style.background == "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background !== "grey" && kocka2 == kocka3 && kocka2 == kocka4 && kocka2 == kocka6) {
+    } else if (jedan.style.background !== "grey" && dva.style.background == "grey" && tri.style.background == "grey" && cetiri.style.background == "grey" && pet.style.background !== "grey" && sest.style.background == "grey" && kocka2 == kocka3 && kocka2 == kocka4 && kocka2 == kocka6) {
         polje53.innerHTML = kocka2 + kocka3 + kocka4 + kocka6 + 40;
         brojac = 0;
         cetiri.style.background = "white";
