@@ -18660,6 +18660,13 @@ polje55.addEventListener('click', function () {
         dva.style.background = "white";
         pet.style.background = "white";
         sest.style.background = "white";
+    } else if (jedan.style.background !== "grey" && dva.style.background == "grey" && tri.style.background == "grey" && cetiri.style.background == "grey" && pet.style.background !== "grey" && sest.style.background == "grey" && kocka2 == kocka4 && kocka2 == kocka3 && kocka2 == kocka6) {
+            polje55.innerHTML = kocka2 + kocka4 + kocka3 + kocka6 + 40;
+            brojac = 0;
+            cetiri.style.background = "white";
+            dva.style.background = "white";
+            pet.style.background = "white";
+            sest.style.background = "white";
     } else if (jedan.style.background !== "grey" && dva.style.background !== "grey" && tri.style.background == "grey" && cetiri.style.background == "grey" && pet.style.background == "grey" && sest.style.background == "grey" && kocka3 == kocka4 && kocka3 == kocka5 && kocka3 == kocka6) {
         polje55.innerHTML = kocka3 + kocka4 + kocka5 + kocka6 + 40;
         brojac = 0;
